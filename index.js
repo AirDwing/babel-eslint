@@ -1,9 +1,9 @@
 var babylonToEspree = require("./babylon-to-espree");
 var Module = require("module");
 var path = require("path");
-var parse = require("babylon").parse;
+var parse = require("@airdwing/babylon").parse;
 var t = require("babel-types");
-var tt = require("babylon").tokTypes;
+var tt = require("@airdwing/babylon").tokTypes;
 var traverse = require("babel-traverse").default;
 var codeFrameColumns = require("babel-code-frame").codeFrameColumns;
 
